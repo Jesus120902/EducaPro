@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EducaPro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #007bff !important;
+        }
+
+        .navbar-nav .nav-link {
+            color: #495057 !important;
+            font-size: 16px;
+            margin-right: 15px;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #007bff !important;
+            }
+
+        .navbar-text {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+
+            footer a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+
+        .btn {
+            border-radius: 20px;
+        }
+        /* Contenedor flotante en la esquina inferior derecha */
+        #chatbot-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 350px; /* Hacemos el chat más cuadrado */
+            height: 400px;
+            z-index: 9999;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            transition: all 0.3s ease;
+        }
+
+        /* Estilos para el encabezado del chatbot */
+        #chatbot-header {
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Estilos de los mensajes del chatbot */
+        .bot-message, .user-message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .bot-message {
+            background-color: #e3f2fd;
+            margin-right: 20%;
+        }
+
+        .user-message {
+            background-color: #ffffff;
+            text-align: right;
+            margin-left: 20%;
+        }
+
+        /* Barra de desplazamiento personalizada */
+        #chatMessages {
+            overflow-y: auto;
+            flex-grow: 1;
+            padding: 10px;
+            margin-bottom: 10px;
+            max-height: 300px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+
+            #chatMessages::-webkit-scrollbar {
+                width: 6px;
+            }
+
+            #chatMessages::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            #chatMessages::-webkit-scrollbar-thumb {
+                background: #888;
+                border-radius: 10px;
+            }
+
+                #chatMessages::-webkit-scrollbar-thumb:hover {
+                    background: #555;
+                }
+
+        /* Cuando el chat está minimizado */
+        #chatbot-container.minimized {
+            height: 60px; /* Reducir la altura del contenedor */
+        }
+
+        /* Botón de minimizar/maximizar */
+        #minimizeButton {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        /* Cuando el chat está minimizado, ocultamos los mensajes */
+        #chatMessages.minimized {
+            display: none;
+        }
+
+        /* Cambios de diseño cuando el chat se minimiza */
+        #chatbot-container.minimized #chatbot-header {
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EducaPro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Curso" asp-action="Index">Cursos</a>
+                        </li>
+                        
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Profesor"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Curso" asp-action="Create">Crear Curso</a>
+                            </li>
+                        }
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Estudiante"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Carrito" asp-action="MisCursos">Mis Cursos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Carrito" asp-action="Index">Carrito</a>
+                            </li>
+                        }
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <span class="navbar-text me-3">Bienvenido, <strong>@User.Identity.Name</strong>!</span>
+                            </li>
+                            <li class="nav-item">
+                                <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-link nav-link text-danger" style="text-decoration: none;">Salir</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="btn btn-primary me-2" asp-area="Identity" asp-page="/Account/Login">Iniciar Sesión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary" asp-area="Identity" asp-page="/Account/Register">Registro</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="text-center text-muted border-top mt-5">
+        <div class="container">
+            &copy; 2024 - EducaPro - <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidad</a>
+        </div>
+    </footer>
+    <!-- Contenedor flotante del chatbot -->
+    <div id="chatbot-container">
+        <div id="chatbot-header" onclick="toggleChat()">
+            <h5 class="mb-0">Asistente Virtual</h5>
+            <button id="minimizeButton" onclick="toggleChat()">
+                <i id="minimizeIcon" class="bi bi-dash"></i>
+            </button>
+        </div>
+        <div id="chatMessages" class="mb-3">
+            <div class="bot-message">
+                <strong>Asistente:</strong> ¡Hola! Soy el asistente de EducaPro.
+                Puedo ayudarte con información sobre:
+                - Cursos disponibles
+                - Precios
+                - Horarios
+                - Proceso de inscripción
+                - Información de profesores
+                ¿En qué puedo ayudarte?
+            </div>
+        </div>
+        <div class="input-group">
+            <input type="text" id="mensajeInput" class="form-control" placeholder="Escribe tu pregunta aquí...">
+            <div class="input-group-append">
+                <button class="btn btn-primary" onclick="enviarMensaje()">
+                    <i class="bi bi-send"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://localhost:7260/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Función para alternar minimizar/maximizar el chatbot
+        function toggleChat() {
+            const chatbotContainer = document.getElementById('chatbot-container');
+            const minimizeIcon = document.getElementById('minimizeIcon');
+            const chatMessages = document.getElementById('chatMessages');
+
+            if (chatbotContainer.classList.contains('minimized')) {
+                chatbotContainer.classList.remove('minimized');
+                minimizeIcon.classList.remove('bi-plus');
+                minimizeIcon.classList.add('bi-dash');
+                chatMessages.classList.remove('minimized');
+            } else {
+                chatbotContainer.classList.add('minimized');
+                minimizeIcon.classList.remove('bi-dash');
+                minimizeIcon.classList.add('bi-plus');
+                chatMessages.classList.add('minimized');
+            }
+        }
+
+        function enviarMensaje() {
+            var mensaje = $('#mensajeInput').val();
+            if (!mensaje) return;
+
+            // Agregar mensaje del usuario
+            $('#chatMessages').append(`
+                        <div class="user-message">
+                            <strong>Tú:</strong> ${mensaje}
+                        </div>
+                    `);
+
+            // Mostrar indicador de "escribiendo..."
+            $('#chatMessages').append(`
+                        <div id="escribiendo" class="bot-message">
+                            <em>Escribiendo...</em>
+                        </div>
+                    `);
+
+            // Scroll al fondo
+            $('#chatMessages').scrollTop($('#chatMessages')[0].scrollHeight);
+
+            // Llamar al controlador
+            $.post('/Chatbot/GetResponse', { mensaje: mensaje }, function (response) {
+                // Remover el indicador de "escribiendo..."
+                $('#escribiendo').remove();
+
+                $('#chatMessages').append(`
+                            <div class="bot-message">
+                                <strong>Asistente:</strong> ${response.respuesta}
+                            </div>
+                        `);
+                $('#chatMessages').scrollTop($('#chatMessages')[0].scrollHeight);
+            });
+
+            $('#mensajeInput').val('').focus();
+        }
+
+        // Enviar con Enter
+        $('#mensajeInput').keypress(function (e) {
+            if (e.which == 13) {
+                enviarMensaje();
+            }
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

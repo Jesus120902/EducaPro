@@ -1,0 +1,33 @@
+﻿@model EducaPro.Models.Curso
+
+@{
+    ViewData["Title"] = "Eliminar Curso";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center text-danger">@ViewData["Title"]</h1>
+    <hr />
+    <div class="card shadow mx-auto" style="max-width: 600px;">
+        <div class="card-body">
+            <h4>¿Estás seguro que deseas eliminar este curso?</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4">Nombre:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Nombre)</dd>
+
+                <dt class="col-sm-4">Descripción:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Descripcion)</dd>
+
+                <dt class="col-sm-4">Profesor:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Profesor)</dd>
+            </dl>
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div class="d-flex justify-content-between">
+                    <input type="submit" value="Eliminar" class="btn btn-danger" />
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<EducaPro.Models.Inscripcion>
+
+@{
+    ViewData["Title"] = "Mis Cursos";
+}
+
+<h1>Mis Cursos</h1>
+
+@if (TempData["MensajeExito"] != null)
+{
+    <div class="alert alert-success">@TempData["MensajeExito"]</div>
+}
+
+@if (TempData["MensajeError"] != null)
+{
+    <div class="alert alert-danger">@TempData["MensajeError"]</div>
+}
+
+@if (Model == null || !Model.Any())
+{
+    <p>No tienes cursos registrados.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Descripción</th>
+                <th>Horario</th>
+                <th>Fecha de Inscripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var inscripcion in Model)
+            {
+                <tr>
+                    <td>@inscripcion.Curso.Nombre</td>
+                    <td>@inscripcion.Curso.Descripcion</td>
+                    <td>@inscripcion.HorarioSeleccionado</td>
+                    <td>@inscripcion.FechaInscripcion.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

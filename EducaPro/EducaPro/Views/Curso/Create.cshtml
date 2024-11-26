@@ -1,0 +1,50 @@
+﻿@model EducaPro.Models.Curso
+
+@{
+    ViewData["Title"] = "Crear Curso";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+    <hr />
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Nombre" class="form-label fw-bold"></label>
+                            <input asp-for="Nombre" class="form-control" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Descripcion" class="form-label fw-bold"></label>
+                            <textarea asp-for="Descripcion" class="form-control"></textarea>
+                            <span asp-validation-for="Descripcion" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Profesor" class="form-label fw-bold"></label>
+                            <input asp-for="Profesor" class="form-control" />
+                            <span asp-validation-for="Profesor" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <input type="submit" value="Crear" class="btn btn-primary" />
+                            <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

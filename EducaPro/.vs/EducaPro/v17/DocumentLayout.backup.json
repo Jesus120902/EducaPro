@@ -1,0 +1,1110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FINAL DAS\\CORREO\\EducaPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\migrations\\20241126031957_antesdeazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\migrations\\20241126031957_antesdeazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\models\\cursoinscripcionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\models\\cursoinscripcionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\models\\chatdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\models\\chatdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\curso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\curso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\curso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\curso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\curso\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\curso\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\curso\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\curso\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\curso\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\curso\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\services\\chatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\services\\chatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\controllers\\chatbotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\services\\ichatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\services\\ichatbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\chatbot\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\chatbot\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\carrito\\miscursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\carrito\\miscursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\wwwroot\\data\\data.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\wwwroot\\data\\data.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\carrito\\inscripcion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\carrito\\inscripcion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\confirmmfa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\confirmmfa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\confirmmfa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\confirmmfa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120060027_ADD1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120050431_AddAPIhpone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120043632_AddPINValidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120043127_AddSecurityPIN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120041954_AddSecurityQuestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113030106_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113025626_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113024957_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113024751_AddIdentityRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|d:\\final das\\correo\\educapro\\educapro\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A217957-987C-4136-B9F8-F55679230F6A}|EducaPro\\EducaPro.csproj|solutionrelative:educapro\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113023410_scaffoldidentityRazorClassLib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113023236_cargaXYZ.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113022514_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241126031957_AntesdeAzure.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Migrations\\20241126031957_AntesdeAzure.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Migrations\\20241126031957_AntesdeAzure.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Migrations\\20241126031957_AntesdeAzure.cs",
+              "RelativeToolTip": "EducaPro\\Migrations\\20241126031957_AntesdeAzure.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:19:57.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "EducaPro\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T04:27:36.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inscripcion.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\Inscripcion.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Models\\Inscripcion.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\Inscripcion.cs",
+              "RelativeToolTip": "EducaPro\\Models\\Inscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:40:08.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Program.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Program.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Program.cs",
+              "RelativeToolTip": "EducaPro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:23:19.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\appsettings.json",
+              "RelativeDocumentMoniker": "EducaPro\\appsettings.json",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\appsettings.json",
+              "RelativeToolTip": "EducaPro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T02:20:35.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CursoInscripcionViewModel.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\CursoInscripcionViewModel.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Models\\CursoInscripcionViewModel.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\CursoInscripcionViewModel.cs",
+              "RelativeToolTip": "EducaPro\\Models\\CursoInscripcionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:07:57.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Models\\Curso.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\Curso.cs",
+              "RelativeToolTip": "EducaPro\\Models\\Curso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:23:59.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatData.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\ChatData.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Models\\ChatData.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\ChatData.cs",
+              "RelativeToolTip": "EducaPro\\Models\\ChatData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:49:42.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\Carrito.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Models\\Carrito.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\Carrito.cs",
+              "RelativeToolTip": "EducaPro\\Models\\Carrito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:39:53.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "EducaPro\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:17:02.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Index.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Curso\\Index.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Index.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Curso\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T03:12:05.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Details.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Curso\\Details.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Details.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Curso\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T03:11:17.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Create.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Curso\\Create.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Create.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Curso\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T16:52:14.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACkBAAAAAAAAAAAAAKcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T02:37:45.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Curso\\Delete.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Delete.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Curso\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T05:51:21.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Curso\\Edit.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Curso\\Edit.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Curso\\Edit.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T05:51:45.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T05:27:51.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IChatbotService.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Services\\IChatbotService.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Services\\IChatbotService.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Services\\IChatbotService.cs",
+              "RelativeToolTip": "EducaPro\\Services\\IChatbotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:50:50.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Chatbot\\Index.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Chatbot\\Index.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Chatbot\\Index.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Chatbot\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T01:42:17.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "EducaPro\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "EducaPro\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T05:02:20.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T04:48:02.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "EducaPro\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "EducaPro\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T04:47:23.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChatbotService.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Services\\ChatbotService.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Services\\ChatbotService.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Services\\ChatbotService.cs",
+              "RelativeToolTip": "EducaPro\\Services\\ChatbotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:50:23.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChatbotController.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Controllers\\ChatbotController.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Controllers\\ChatbotController.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Controllers\\ChatbotController.cs",
+              "RelativeToolTip": "EducaPro\\Controllers\\ChatbotController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:41:37.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MisCursos.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Carrito\\MisCursos.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Carrito\\MisCursos.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Carrito\\MisCursos.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Carrito\\MisCursos.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T04:46:57.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Controllers\\CarritoController.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "EducaPro\\Controllers\\CarritoController.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAkwIsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:40:48.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Controllers\\CursoController.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "EducaPro\\Controllers\\CursoController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:27:53.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Services\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Services\\IEmailSender.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Services\\IEmailSender.cs",
+              "RelativeToolTip": "EducaPro\\Services\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T05:58:05.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Services\\EmailSender.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Services\\EmailSender.cs",
+              "RelativeToolTip": "EducaPro\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T05:58:26.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T04:47:45.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAiwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T05:39:13.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T17:03:07.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EducaPro\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T04:42:42.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "data.csv",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\wwwroot\\data\\data.csv",
+              "RelativeDocumentMoniker": "EducaPro\\wwwroot\\data\\data.csv",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\wwwroot\\data\\data.csv",
+              "RelativeToolTip": "EducaPro\\wwwroot\\data\\data.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-11-24T02:59:47.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T17:17:05.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Inscripcion.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Carrito\\Inscripcion.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Carrito\\Inscripcion.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Carrito\\Inscripcion.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Carrito\\Inscripcion.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAmwLsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T04:21:40.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T17:17:04.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T17:17:05.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Data\\SeedData.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Data\\SeedData.cs",
+              "RelativeToolTip": "EducaPro\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:19:23.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EducaPro\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:21:31.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Carrito\\Index.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Views\\Carrito\\Index.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Views\\Carrito\\Index.cshtml",
+              "RelativeToolTip": "EducaPro\\Views\\Carrito\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T03:41:27.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ConfirmMFA.cshtml.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\ConfirmMFA.cshtml.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\ConfirmMFA.cshtml.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\ConfirmMFA.cshtml.cs",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\ConfirmMFA.cshtml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:16:37.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:53:57.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T04:26:40.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ConfirmMFA.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\ConfirmMFA.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\ConfirmMFA.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\ConfirmMFA.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\ConfirmMFA.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T04:15:17.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T04:53:56.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T05:43:40.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LoginWith2fa.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T22:42:04.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20241120060027_ADD1.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120060027_ADD1.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120060027_ADD1.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120060027_ADD1.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120060027_ADD1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:00:28.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T05:38:48.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20241120050431_AddAPIhpone.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120050431_AddAPIhpone.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120050431_AddAPIhpone.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120050431_AddAPIhpone.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120050431_AddAPIhpone.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T05:04:31.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T04:42:56.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T04:42:55.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T04:42:55.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "EducaPro\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "EducaPro\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T04:39:35.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20241120043632_AddPINValidation.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120043632_AddPINValidation.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120043632_AddPINValidation.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120043632_AddPINValidation.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120043632_AddPINValidation.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T04:36:32.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20241120043127_AddSecurityPIN.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120043127_AddSecurityPIN.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120043127_AddSecurityPIN.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120043127_AddSecurityPIN.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120043127_AddSecurityPIN.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T04:31:27.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20241120041954_AddSecurityQuestions.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120041954_AddSecurityQuestions.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120041954_AddSecurityQuestions.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241120041954_AddSecurityQuestions.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241120041954_AddSecurityQuestions.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T04:19:54.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20241113025626_InitialCreate.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113025626_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113025626_InitialCreate.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113025626_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113025626_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:56:27.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20241113030106_InitialCreate.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113030106_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113030106_InitialCreate.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113030106_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113030106_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:01:06.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20241113024957_InitialCreate.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113024957_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113024957_InitialCreate.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113024957_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113024957_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:49:57.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20241113024751_AddIdentityRoles.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113024751_AddIdentityRoles.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113024751_AddIdentityRoles.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113024751_AddIdentityRoles.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113024751_AddIdentityRoles.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:47:51.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20241113023236_cargaXYZ.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113023236_cargaXYZ.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113023236_cargaXYZ.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113023236_cargaXYZ.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113023236_cargaXYZ.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:32:36.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20241113023410_scaffoldidentityRazorClassLib.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113023410_scaffoldidentityRazorClassLib.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113023410_scaffoldidentityRazorClassLib.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113023410_scaffoldidentityRazorClassLib.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113023410_scaffoldidentityRazorClassLib.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:34:10.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "EducaPro\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\FINAL DAS\\CORREO\\EducaPro\\EducaPro\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "EducaPro\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-13T02:36:04.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20241113022514_InitialCreate.cs",
+              "DocumentMoniker": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113022514_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113022514_InitialCreate.cs",
+              "ToolTip": "D:\\FINAL DAS\\EducaPro\\EducaPro\\Migrations\\20241113022514_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\EducaPro\\EducaPro\\Migrations\\20241113022514_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:25:15.086Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

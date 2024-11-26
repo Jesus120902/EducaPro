@@ -1,0 +1,38 @@
+﻿@model EducaPro.Models.Carrito
+
+<h1>Mi Carrito</h1>
+
+@if (Model.Inscripciones.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Descripción</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var inscripcion in Model.Inscripciones)
+            {
+                <tr>
+                    <td>@inscripcion.Curso.Nombre</td>
+                    <td>@inscripcion.Curso.Descripcion</td>
+                    <td>
+                        <form asp-action="EliminarCurso" method="post">
+                            <input type="hidden" name="inscripcionId" value="@inscripcion.Id" />
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    <a asp-action="Inscripcion" class="btn btn-primary">Realizar Inscripción</a>
+}
+else
+{
+    <p>No tienes cursos en tu carrito.</p>
+}

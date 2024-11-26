@@ -1,0 +1,190 @@
+﻿@model EducaPro.Models.Carrito
+
+@{
+    ViewData["Title"] = "Realizar Inscripción";
+}
+
+<h1 class="text-center">Realizar Inscripción</h1>
+
+<form id="inscripcionForm" asp-action="RealizarInscripcion" method="post">
+    <input type="hidden" name="carritoId" value="@Model.Id" />
+
+    <div class="mb-4">
+        <h4>Seleccione Horario:</h4>
+        <select name="horarioSeleccionado" class="form-control" required>
+            <option value="">Seleccione un horario...</option>
+            <option value="Mañana">Mañana</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noche">Noche</option>
+        </select>
+    </div>
+
+    <div class="mb-4">
+        <h4>Método de Pago:</h4>
+        <select id="metodoPago" name="metodoPago" class="form-control" required>
+            <option value="">Seleccione método de pago...</option>
+            <option value="Tarjeta">Tarjeta de Crédito/Débito</option>
+            <option value="Transferencia">Transferencia Bancaria</option>
+        </select>
+    </div>
+
+    <div class="text-center">
+        <button type="button" class="btn btn-success" onclick="confirmarInscripcion()">Confirmar Inscripción</button>
+    </div>
+</form>
+
+@if (TempData["MensajeExito"] != null)
+{
+    <div class="alert alert-success mt-3">@TempData["MensajeExito"]</div>
+}
+@if (TempData["MensajeError"] != null)
+{
+    <div class="alert alert-danger mt-3">@TempData["MensajeError"]</div>
+}
+
+<!-- Modal de Pago -->
+<div class="modal fade" id="pagoModal" tabindex="-1" aria-labelledby="pagoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="pagoModalLabel">
+                    <i class="bi bi-credit-card-fill"></i> Pago con Tarjeta
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Formulario para Pago con Tarjeta -->
+                <div id="tarjetaPago" class="payment-form">
+                    <div class="mb-3">
+                        <label for="numeroTarjeta" class="form-label">Número de Tarjeta</label>
+                        <input type="text" class="form-control" id="numeroTarjeta" placeholder="1234 5678 9012 3456" maxlength="19" required>
+                        <small class="form-text text-muted">Ingrese un número de tarjeta válido.</small>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="fechaExpiracion" class="form-label">Fecha de Expiración</label>
+                            <input type="text" class="form-control" id="fechaExpiracion" placeholder="MM/AA" maxlength="5" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="codigoCVV" class="form-label">Código CVV</label>
+                            <input type="text" class="form-control" id="codigoCVV" placeholder="123" maxlength="3" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulario para Transferencia Bancaria -->
+                <div id="transferenciaPago" class="payment-form" style="display: none;">
+                    <div class="mb-3">
+                        <label for="cuentaBancaria" class="form-label">Número de Cuenta Bancaria</label>
+                        <input type="text" class="form-control" id="cuentaBancaria" placeholder="XXXX XXXX XXXX" maxlength="16" required>
+                        <small class="form-text text-muted">Ingrese su número de cuenta bancaria.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="banco" class="form-label">Banco</label>
+                        <input type="text" class="form-control" id="banco" placeholder="Nombre del Banco" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="procesarPago()">Realizar Pago</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmarInscripcion() {
+            const metodoPago = document.getElementById("metodoPago").value;
+            if (metodoPago === "Tarjeta") {
+                document.getElementById("tarjetaPago").style.display = "block";
+                document.getElementById("transferenciaPago").style.display = "none";
+                const myModal = new bootstrap.Modal(document.getElementById('pagoModal'));
+                myModal.show();
+            } else if (metodoPago === "Transferencia") {
+                document.getElementById("tarjetaPago").style.display = "none";
+                document.getElementById("transferenciaPago").style.display = "block";
+                const myModal = new bootstrap.Modal(document.getElementById('pagoModal'));
+                myModal.show();
+            } else {
+                document.getElementById("inscripcionForm").submit();
+            }
+        }
+
+        function procesarPago() {
+            const metodoPago = document.getElementById("metodoPago").value;
+            let isValid = false;
+
+            if (metodoPago === "Tarjeta") {
+                const numeroTarjeta = document.getElementById("numeroTarjeta").value;
+                const fechaExpiracion = document.getElementById("fechaExpiracion").value;
+                const codigoCVV = document.getElementById("codigoCVV").value;
+                isValid = validarTarjeta(numeroTarjeta, fechaExpiracion, codigoCVV);
+            } else if (metodoPago === "Transferencia") {
+                const cuentaBancaria = document.getElementById("cuentaBancaria").value;
+                const banco = document.getElementById("banco").value;
+                isValid = cuentaBancaria && banco;
+            }
+
+            if (!isValid) {
+                alert("Por favor, revise los detalles de su pago.");
+                return;
+            }
+
+            // Simular procesamiento de pago con animación
+            const botonPago = document.querySelector(".btn-primary");
+            botonPago.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Procesando...';
+            botonPago.disabled = true;
+
+            setTimeout(() => {
+                alert("Pago procesado con éxito.");
+                const myModalEl = document.getElementById('pagoModal');
+                const modal = bootstrap.Modal.getInstance(myModalEl);
+                modal.hide();
+                document.getElementById("inscripcionForm").submit();
+            }, 2000);
+        }
+
+        function validarTarjeta(numero, expiracion, cvv) {
+            // Elimina espacios del número de tarjeta
+            numero = numero.replace(/\s+/g, '');
+
+            // Validar número de tarjeta (13-19 dígitos)
+            const regexTarjeta = /^[0-9]{13,19}$/;
+            if (!regexTarjeta.test(numero)) {
+                alert("Número de tarjeta inválido. Asegúrese de que tenga entre 13 y 19 dígitos.");
+                return false;
+            }
+
+            // Validar formato de fecha de expiración (MM/AA)
+            const regexExpiracion = /^(0[1-9]|1[0-2])\/\d{2}$/; // MM/AA
+            if (!regexExpiracion.test(expiracion)) {
+                alert("Fecha de expiración inválida. Use el formato MM/AA.");
+                return false;
+            }
+
+            // Validar que la fecha de expiración no esté en el pasado
+            const [mes, año] = expiracion.split('/');
+            const mesActual = new Date().getMonth() + 1; // Los meses en JavaScript son 0-11
+            const añoActual = new Date().getFullYear() % 100; // Tomar solo los últimos 2 dígitos
+
+            if (parseInt(año) < añoActual || (parseInt(año) === añoActual && parseInt(mes) < mesActual)) {
+                alert("La tarjeta está vencida.");
+                return false;
+            }
+
+            // Validar CVV (3 o 4 dígitos)
+            const regexCVV = /^[0-9]{3,4}$/;
+            if (!regexCVV.test(cvv)) {
+                alert("Código CVV inválido. Asegúrese de que tenga 3 o 4 dígitos.");
+                return false;
+            }
+
+            // Si todo es válido
+            return true;
+        }
+
+    </script>
+}

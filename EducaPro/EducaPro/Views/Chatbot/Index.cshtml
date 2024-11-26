@@ -1,0 +1,156 @@
+﻿@{
+    ViewData["Title"] = "Chat EducaPro";
+}
+
+<!-- Contenedor flotante del chatbot -->
+<div id="chatbot-container">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Asistente Virtual EducaPro</h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- Chat Messages Container -->
+                        <div id="chatMessages" class="mb-3"
+                             style="height: 400px; overflow-y: auto; background-color: #f8f9fa; padding: 15px; border-radius: 5px;">
+                            <div class="bot-message">
+                                <strong>Asistente:</strong> ¡Hola! Soy el asistente de EducaPro.
+                                Puedo ayudarte con información sobre:
+                                <ul>
+                                    <li>Cursos disponibles</li>
+                                    <li>Precios</li>
+                                    <li>Horarios</li>
+                                    <li>Proceso de inscripción</li>
+                                    <li>Información de profesores</li>
+                                </ul>
+                                ¿En qué puedo ayudarte?
+                            </div>
+                        </div>
+                        <!-- Input Group -->
+                        <div class="input-group">
+                            <input type="text" id="mensajeInput" class="form-control" placeholder="Escribe tu pregunta aquí...">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" onclick="enviarMensaje()">
+                                    <i class="bi bi-send"></i> Enviar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Estilos CSS para el chatbot flotante -->
+<style>
+    #chatbot-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 350px;
+        z-index: 9999;
+        border-radius: 10px;
+    }
+
+    .bot-message, .user-message {
+        margin-bottom: 10px;
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+
+    .bot-message {
+        background-color: #e3f2fd;
+        margin-right: 20%;
+    }
+
+    .user-message {
+        background-color: #ffffff;
+        text-align: right;
+        margin-left: 20%;
+    }
+
+    #chatMessages::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    #chatMessages::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    #chatMessages::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 5px;
+    }
+</style>
+
+<!-- Scripts -->
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Coloca el foco automáticamente en el campo de entrada
+            $('#mensajeInput').focus();
+        });
+
+        function enviarMensaje() {
+            var mensaje = $('#mensajeInput').val();
+            if (!mensaje) return;
+
+            agregarMensajeUsuario(mensaje);
+
+            // Llamada al backend para obtener la respuesta
+            mostrarIndicadorEscribiendo();
+            $.post('/Chatbot/GetResponse', { mensaje: mensaje }, function (response) {
+                removerIndicadorEscribiendo();
+                agregarMensajeBot(response.respuesta);
+            });
+
+            // Limpiar campo de texto
+            $('#mensajeInput').val('').focus();
+        }
+
+        function agregarMensajeUsuario(mensaje) {
+            $('#chatMessages').append(`
+                        <div class="user-message">
+                            <strong>Tú:</strong> ${mensaje}
+                        </div>
+                    `);
+            scrollAlFondo();
+        }
+
+        function agregarMensajeBot(respuesta) {
+            $('#chatMessages').append(`
+                        <div class="bot-message">
+                            <strong>Asistente:</strong> ${respuesta}
+                        </div>
+                    `);
+            scrollAlFondo();
+        }
+
+        function mostrarIndicadorEscribiendo() {
+            $('#chatMessages').append(`
+                        <div id="escribiendo" class="bot-message">
+                            <em>Escribiendo...</em>
+                        </div>
+                    `);
+            scrollAlFondo();
+        }
+
+        function removerIndicadorEscribiendo() {
+            $('#escribiendo').remove();
+        }
+
+        function scrollAlFondo() {
+            $('#chatMessages').scrollTop($('#chatMessages')[0].scrollHeight);
+        }
+
+        // Permitir enviar con la tecla Enter
+        $('#mensajeInput').keypress(function (e) {
+            if (e.which == 13) {
+                enviarMensaje();
+            }
+        });
+    </script>
+}

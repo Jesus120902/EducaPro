@@ -1,0 +1,32 @@
+﻿@page
+@model EducaPro.Areas.Identity.Pages.Account.ConfirmMFAModel
+@{
+    ViewData["Title"] = "Verificación de dos pasos";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (!string.IsNullOrEmpty(TempData["SuccessMessage"] as string))
+{
+    <div style="color: green; font-weight: bold; margin-bottom: 20px;">
+        @TempData["SuccessMessage"]
+    </div>
+}
+else
+{
+    <p>Por favor, ingresa el siguiente código para continuar:</p>
+
+    <div style="font-size: 24px; font-weight: bold; padding: 10px; border: 1px solid #ccc; display: inline-block; background-color: #f9f9f9; user-select: none;">
+        @TempData["MFACode"]
+    </div>
+
+    <form method="post">
+        <div>
+            <label for="MFACodeInput">Ingresa el código mostrado:</label>
+            <input type="text" id="MFACodeInput" name="MFACodeInput" required />
+        </div>
+        <button type="submit">Verificar</button>
+    </form>
+
+    <p asp-validation-summary="ModelOnly" class="text-danger"></p>
+}
